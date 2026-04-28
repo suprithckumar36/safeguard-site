@@ -77,7 +77,7 @@ const Experience = () => {
           </blockquote>
           <figcaption className="mt-5 flex items-center justify-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
-              NK
+              SK
             </div>
             <div className="text-left">
               <p className="text-sm font-bold text-foreground">​Suprith C Kumar</p>
