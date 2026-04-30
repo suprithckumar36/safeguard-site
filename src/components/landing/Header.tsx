@@ -3,10 +3,10 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 const nav = [
-  { label: "Vehicle Insurance", href: "#products" },
-  { label: "Health Insurance", href: "#products" },
-  { label: "Claims", href: "#experience" },
-  { label: "Careers", href: "#trust" },
+  { label: "Life Insurance", href: "/#products" },
+  { label: "Health Insurance", href: "/#products" },
+  { label: "Claims", href: "/#experience" },
+  { label: "Careers", href: "/careers" },
 ];
 
 const Header = () => {
