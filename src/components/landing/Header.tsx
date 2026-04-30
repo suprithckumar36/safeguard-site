@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const nav = [
   { label: "Life Insurance", href: "/#products" },
@@ -15,12 +16,12 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="container-page flex h-16 items-center justify-between">
-        <a href="#" className="flex items-center gap-1">
-          <span className="text-2xl font-extrabold tracking-tight text-foreground">
-            SAFEGUARD
-          </span>
-          <span className="-mt-2 h-1.5 w-1.5 rounded-full bg-primary" />
-        </a>
+        <Link to="/" className="flex items-center gap-1">
+  <span className="text-2xl font-extrabold tracking-tight text-foreground">
+    SAFEGUARD
+  </span>
+  <span className="-mt-2 h-1.5 w-1.5 rounded-full bg-primary" />
+</Link>
 
         <nav className="hidden items-center gap-8 md:flex">
           {nav.map((item) => (
