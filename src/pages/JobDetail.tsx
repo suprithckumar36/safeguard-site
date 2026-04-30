@@ -38,7 +38,7 @@ const JOBS: Record<string, JobContent> = {
         heading: "Key Responsibilities",
         bullets: [
           "Identify and connect with potential clients (individuals or businesses)",
-          "Refer leads interested in insurance products (health, life, general, etc.)",
+          "Refer leads interested in insurance products (health, vehicle, general, etc.)",
           "Maintain relationships with your network to generate ongoing referrals",
           "Coordinate with our advisory team for smooth client onboarding",
           "Follow up on leads when required",

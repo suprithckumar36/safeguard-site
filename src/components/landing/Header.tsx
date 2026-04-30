@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const nav = [
-  { label: "Life Insurance", href: "/#products" },
+  { label: "Vehicle Insurance", href: "/#products" },
   { label: "Health Insurance", href: "/#products" },
   { label: "Claims", href: "/#experience" },
   { label: "Careers", href: "/careers" },
