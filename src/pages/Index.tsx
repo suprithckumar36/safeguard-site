@@ -6,7 +6,7 @@ import Comparison from "@/components/landing/Comparison";
 import Trust from "@/components/landing/Trust";
 import CTA from "@/components/landing/CTA";
 import FAQ from "@/components/landing/FAQ";
-import SocialFollowBanner from "@/components/landing/CTABanner";
+import SocialFollowBanner from "@/components/landing/CtaBanner";
 import Footer from "@/components/landing/Footer";
 
 const Index = () => {
