@@ -55,7 +55,14 @@ const Products = () => {
   variant="outline"
   className="gap-2"
   onClick={() => {
-    window.open("https://wa.me/919880510265?text=Hi", "_blank");
+    const message = encodeURIComponent(
+      "Hi I am interested in buying insurance"
+    );
+
+    window.open(
+      `https://wa.me/919880510265?text=${message}`,
+      "_blank"
+    );
   }}
 >
   <MessageCircle className="h-4 w-4" />
